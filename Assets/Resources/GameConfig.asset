@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f15b70f1d46de1c45a98e70629f29d43, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: 
+  usePlaneWorld: 0
+  landLayerMask:
+    serializedVersion: 2
+    m_Bits: 256
+  landGenerator:
+    xResolution: 5
+    yResolution: 5
+    width: 125
+    height: 145.1
+    perlinScale: 1
+    perlinForce: 0
+    material: {fileID: 2100000, guid: 0b1608bf0de9a4d45a52064669cca057, type: 2}
+  playerPhysics:
+    debugMajorAngle: 0.01
+    debugMinorAngle: 0
+    enableMove: 1
+    accelerationFromVerticalAxis: 0
+    accelerationRate: 1
+    xSmoothTime: 0.2
+    maxSpeed: 40
+    smoothTime: 0.3
+    enableCollide: 1
+    rotateSpeed: 1
+    enableRotate: 1
+  objectSpawner:
+    perlinScale: 1
+    threshold: 0.5
+    squareSize: 1
+    padding: 3
+    filterByPerlin: 1
+  cameraFollowPlayer:
+    smoothTime: 0.3
+    offset: {x: 0, y: 22, z: 40}
+    lootAtOffset: {x: 0, y: 0, z: 17}
